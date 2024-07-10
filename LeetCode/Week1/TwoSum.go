@@ -36,10 +36,8 @@ func main() {
 
 }
 
-
-
 /* Description in Steps about solution
-1 - Initiate map 
+1 - Initiate map
 
 2 - Loop of numbers
 
@@ -57,6 +55,3 @@ func main() {
 
 
 */
-
-
-/

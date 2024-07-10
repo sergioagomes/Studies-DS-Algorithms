@@ -1,8 +1,8 @@
-## The Last Algorithms You'll Need 
+## The Last Algorithms You'll Need
 
-- [] Introduction
-- [] Basics
-  - [] Big O Time Complexity
+- [x] Introduction
+- [x] Basics
+  - [x] Big O Time Complexity
   - [] Arrays Data Structure
   - [] Arrays Q&A
 - [] Search
