@@ -7,8 +7,8 @@
   - [x] Arrays Q&A
 - [x] Search
   - [x] Linear Search & Kata Setup
-  - [] Binary Search Algorithm
-  - [] Pseudo Code Binary Search
+  - [x] Binary Search Algorithm
+  - [x] Pseudo Code Binary Search
   - [] Implementing Binary Search
   - [] Two Crystal Balls Problem
 - [] Sort
