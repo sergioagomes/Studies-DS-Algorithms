@@ -5,8 +5,8 @@
   - [x] Big O Time Complexity
   - [x] Arrays Data Structure
   - [x] Arrays Q&A
-- [] Search
-  - [] Linear Search & Kata Setup
+- [x] Search
+  - [x] Linear Search & Kata Setup
   - [] Binary Search Algorithm
   - [] Pseudo Code Binary Search
   - [] Implementing Binary Search
