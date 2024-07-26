@@ -14,8 +14,6 @@ Help us to make decisions about what data structures and algorithms to use, know
 
 Big O - as your input grows, how fast does computation or memory grow?
 
-- Important concepts
-
 - grow is with respect to the input
 - constants are dropped
 - worst case is usually the way we measure

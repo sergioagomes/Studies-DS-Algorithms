@@ -18,3 +18,9 @@
 - Binary search is O(log n) - time complexity
 - Binary search is O(1) - space complexity
 
+
+**the two crystal ball problem**
+
+- Given two crystal balls that will break if dropped from high enough
+distance, determine the exact spot in which it will break the most optimized way.
+
