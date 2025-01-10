@@ -112,5 +112,42 @@ Whenever you need to store an item in memory, you request some space from the co
 
 - Example with code:
 ```ocaml
+
 ```
 
+
+## Recursion 
+    “Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation!”     -- Leigh Caldwell
+
+
+### Base Case and Recursive Case
+ Because a recursive function calls itself, it’s easy to write a function incorrectly that ends up in an infinite loop.
+```ocaml
+let rec loop_infinito () =
+  print_endline "Oh no! A Infinite loop appeared";
+  loop_infinito ()
+```
+- the above code will run indefinitely.
+
+Every recursion function has two parts: base case and recursive case. The recursive case is when a function call itself. The base case is when a function not call itself again.
+
+let's rewrite the code above but wih base case:
+```ocaml
+let rec regressive i =
+  print_int i; 
+  print_newline ();
+  if i <= 1 then  
+    ()
+  else 
+    regressive (i - 1)
+```
+
+### The Stack
+
+A call stack is a LIFO ("Last In, First Out") data structure where elements are inserted and removed only from the top. This structure is used to manage the execution of functions or subroutines in a program.
+
+let's see a example:
+```ocaml
+
+```
+So if I call the function greet("felipe"), the first step computer will allocate a box of memory to this call, after that the pc saves in memory the values of all variables, and finally print "hello, Felipe!".
